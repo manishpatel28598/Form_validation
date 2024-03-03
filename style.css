@@ -18,7 +18,7 @@ body{
     box-shadow: 5px 5px 10px 5px lightgrey;
     border-radius: 7px;
     margin: auto;
-    margin-right: 700px;
+/*     margin-right: 700px; */
 }
 input{
     height: 30px;
