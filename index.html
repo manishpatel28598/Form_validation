@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frorm_validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <form id="myForm">
+        <label for="email">Email </label><br>
+        <input type="email" id="email" onChange="validateEmail()" placeholder="Example@gmail.com" required><br>
+        <span id="emailError" style="color: red;"></span><br>
+    
+        <label for="password">Password </label><br>
+        <input type="password" id="password" onChange="validatePassword()" placeholder="Password" required><br>
+        <span id="passwordError" style="color: red;"></span>
+    
+        <span id="successMessage" style="color: green;"></span>
+        <span id="generalError" style="color: red; font-weight: bold;"></span><br>
+        <button type="submit">Submit</button>
+      </form>
+      </div>
+    <Script src="./script.js"></Script>
+</body>
+</html>
